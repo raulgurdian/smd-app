@@ -41,5 +41,3 @@ def main() -> None:
         print_totals(reports.net_by_month(transactions))
     else:
         print_spending(reports.spending_by_category(transactions))
-    # TODO 4: add a command "months" that prints reports.net_by_month with
-    #         print_totals. Two changes: the choices above, and a branch here.
